@@ -1,0 +1,81 @@
+#turnoverrate {
+      background-color: #EDEDEE;
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      width: fit-content;
+      height:fit-content;
+      border-radius:24px;
+      padding:10px 10px 20px;
+      
+ 
+}
+form h3 {
+  font-size: 18px;
+  font-weight:600;
+  color: #DB662F;
+}
+form {
+      background-color: #EDEDEE;
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      font-family: lato, sans-serif;
+
+      
+    }
+
+
+    label {
+      margin: 10px;
+      color: #395B71;
+      font-weight:600;
+      font-size:14px
+    }
+
+    input {
+      width: 180px;
+      height: 40px;
+      font-size: 22px;
+      padding: 5px 20px ;
+      border-radius:8px;
+      border-color: #EDEDEE;
+      box-shadow: none;
+      color:#7F7F7F;
+      background-color: #ffffff;
+      border: 0px;
+      margin-bottom:10px
+
+ 
+    }
+
+    #error-message {
+      color: #DB662F;
+      font-size: 14px;
+      margin-top: 5px;
+      margin-bottom: 10px;
+      text-align: center;
+      max-width:220px;
+    }
+
+    #result {
+      font-size: 14px;
+      margin-top: 20px;
+      text-align: center;
+      border-top:  solid #DB662F 3px;
+      padding-top:20px;
+      text-align:center;
+    }
+
+    #result .resulttext {
+      font-size: 14px;
+      font-weight: 200;
+      color: #395B71;
+    }
+
+   #result .resultans { 
+    font-size:80px; 
+    font-weight: 900;
+    color: #DB662F;
+    line-height:84px;
+}
